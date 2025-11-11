@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+</head>
+<!-- alt+arrow to move the code -->
+
+<body>
+    <h1>Car Document</h2>
+    <form action="Backend.php">
+
+        <!-- in div tag there contains only one block in a width, others are moved down -->
+
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="MYname" id="name">
+        </div>
+        <br>
+
+        <label for="Role"> Role</label>
+        <div>
+            <input type="text" name="MYrole" id="Role">
+        </div>
+        <br>
+
+        <label for="email"> Email</label>
+        <div>
+            <input type="email" name="MYemail" id="email">
+        </div>
+        <br>
+
+        <label for="address"> Your address</label>
+        <div>
+            <input type="text" name="MYaddress" id="address">
+        </div>
+        <br>
+
+        <label for="Birthdate">Birthdate</label>
+        <div>
+            <input type="date" name="Date added" id="Birthdate">
+        </div>
+        <br>
+
+        <label for="number"> Bonus</label>
+        <Div>
+            <input type="number" name="Mybonus" id="number">
+        </Div>
+        <br>
+
+        <label for="eligible"> Are you eligible</label>
+        <Div>
+            <input type="checkbox" name="Eligibility" id="eligible">
+        </Div>
+        <br>
+
+        <Div>
+            Gender: Male <input type="radio" name="Mygender"> Female <input type="radio" name="Mygender"> Other <input
+                type="radio" name="Mygender">
+
+        </Div>
+        <br>
+
+        <Div>
+            Write about your car: <br> <textarea name="myText" cols="90" rows="10"></textarea>
+        </Div>
+        <br>
+
+        <label for="Colour"> Favourite Colour</label>
+        <Div>
+            <input type="color" name="Myfavcolour" id="Colour">
+        </Div>
+        <br>
+
+        <Div>
+            <label for="car">Select your car</label>
+            <select name="mycar" id="car">
+                <option value="Must"> Mustang GT</option>
+                <option value="merc">Mercedes S class</option>
+                <option value="bmw">BMW m5</option>
+                <option value="nsn">Nissan GTR</option>
+                <option value="mer">G wagon</option>
+
+
+            </select>
+        </Div>
+        <br>
+
+
+        <Div>
+
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="reset Now">
+        </Div>
+        <br>
+        <hr>
+
+    </form>
+
+</body>
+
+</html>

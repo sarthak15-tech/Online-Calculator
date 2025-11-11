@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box MOdel</title>
+    <style>
+        /* universal selector */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: coral;
+        }
+    .container{
+        background-color: rgb(194, 195, 217);
+        border: 3px solid rgb(132, 101, 180);
+        /* padding: 20px;
+        padding-top: 25px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px; */
+        
+        /* top,right,bottom,left */
+        /* padding: 23px 48px 30px 20px;    
+        margin: 40px;    */
+
+        /* padding: y(top,bottom) x(right,left); */
+        padding: 30px 25px;
+        margin: 20px 30px;
+        border-radius: 20px;
+        width: 555px;
+        /* if you want the width to apply then use this property */
+        box-sizing: border-box;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam omnis, suscipit odit vel corrupti fuga nulla atque iusto, dignissimos, facilis pariatur nihil qui impedit delectus expedita commodi cum magnam similique?</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my second heading</h3>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam omnis, suscipit odit vel corrupti fuga nulla atque iusto, dignissimos, facilis pariatur nihil qui impedit delectus expedita commodi cum magnam similique?</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my third heading</h3>
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam omnis, suscipit odit vel corrupti fuga nulla atque iusto, dignissimos, facilis pariatur nihil qui impedit delectus expedita commodi cum magnam similique?</p>
+    </div>
+
+    
+</body>
+</html>

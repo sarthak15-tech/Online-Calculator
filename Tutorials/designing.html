@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            border: 3px solid rgb(184, 181, 241);
+            background-color: aquamarine;
+            padding: 34px;
+            margin: 34px auto;
+            width: 700px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color: rgb(41, 21, 223);
+        }
+        a:active{
+            color: rgb(225, 7, 7);
+        }
+        a:hover{
+            color: rgb(103, 194, 197);
+            background-color: rgb(238, 221, 230);
+        }
+
+        .ctn{
+            background-color: rgb(73, 194, 101);
+            padding: 3px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: bold;
+        }
+
+        .ctn:hover{
+            background-color: orange;
+            color: maroon;
+            border: 2px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container" id="con1">
+        <h2>This is my heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusantium adipisci fugiat facilis alias, eveniet nobis esse assumenda nihil explicabo pariatur, praesentium nostrum porro vel doloremque. Assumenda tenetur qui ullam harum tempora sequi exercitationem.</p>
+        <a href="https://twitter.com" target="_blank" class="ctn">Read More</a>
+        <button class="ctn">Contact us</button>
+    </div>
+    
+    
+</body>
+</html>
